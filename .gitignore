@@ -1,1 +1,46 @@
+# Binaries and executables
+/bin/
+/exe/
 *.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+/vendor/
+
+# Go workspace file
+go.work
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Debug files
+debug
+*.log
+
+# Environment files
+.env
+*.env
+
+# Build output
+/dist/
+/pkg/
+
+# Go modules (if not tracking)
+/go.sum
+/go.mod
